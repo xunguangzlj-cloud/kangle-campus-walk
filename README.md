@@ -26,11 +26,15 @@
 
 ## 离线游玩与修改
 
-将仓库中的 [index.html](./index.html) 下载到本机，用开启图形加速的现代浏览器打开，即可离线游玩。文件约 52.4 MiB，包含 Three.js 引擎、场景、材质、人物和动画。
+在线试玩会先载入当前场景，进入庭院后再补齐高清材质。点击「人物漫游」才下载人物，先载入可以行走的模型，再补齐近景细节。
+
+要离线游玩，下载[完整单文件 offline.html](https://github.com/xunguangzlj-cloud/kangle-campus-walk/raw/refs/heads/main/offline.html)，用开启图形加速的现代浏览器打开。文件约 52.4 MiB，包含 Three.js 引擎、场景、材质、人物和动画。
 
 要调整某一项，可在 HTML 内搜索函数名。怀士堂主体由 `createHall` 生成，门窗和台阶分别在 `entranceCraft`、`courtTreads` 中，庭前植被在 `courtLandscape` 中，人物移动和视角由 `makeWalker` 控制。开发者控制台的 `campus.components` 可以查看场景中的独立组件。
 
 ## 参考作品与致谢
+
+- **人物传输压缩**　感谢 Arseny Kapoulkine 开发 meshoptimizer，用于压缩线上版的角色网格与动画。[meshoptimizer](https://github.com/zeux/meshoptimizer)
 
 - **人物与动画**　本作使用《暖光玩具房》网页试玩中的蓝发角色模型、贴图、骨骼和动作。感谢原作制作团队创作角色造型与走、跑、跳的动作。校园中的跟拍、碰撞和楼梯贴脚在原动作基础上实现。[《暖光玩具房》原作试玩](https://v25.dafeiyugame.site/)
 - **建筑照片**　感谢维基共享资源贡献者**猫猫的日记本**拍摄的 2016 年北立面正面照，以及 **AlexHe34** 拍摄的 2011 年斜侧照。两张照片用于核对塔楼、屋脊、门窗与石阶比例。[2016 年正面照](https://commons.wikimedia.org/wiki/File:Swasey_Hall_of_Lingnan_University_03_2016-05.jpg)（[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans)） · [2011 年斜侧照](https://commons.wikimedia.org/wiki/File:Huaishi_Hall_of_SYSU.jpg)（[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.zh-hans)）
