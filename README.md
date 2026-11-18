@@ -4,6 +4,14 @@
 
 **[进入游戏](https://xunguangzlj-cloud.github.io/kangle-campus-walk/)** · [游览完整校园中轴](https://xunguangzlj-cloud.github.io/kangle-campus-walk/?scene=campus)
 
+## 游戏画面
+
+两张图均截自线上游戏，原图为 2560 × 1440。点击可查看大图。
+
+[![午后，榕树环绕的怀士堂北门庭院](media/huaishi-hall.jpg)](media/huaishi-hall.jpg)
+
+[![角色站在怀士堂前的草坪上](media/campus-walk.jpg)](media/campus-walk.jpg)
+
 ## 怎样玩
 
 | 操作 | 方式 |
