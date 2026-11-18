@@ -10,7 +10,7 @@
 
 [![午后，榕树环绕的怀士堂北门庭院](media/huaishi-hall.jpg)](media/huaishi-hall.jpg)
 
-[![角色站在怀士堂前的草坪上](media/campus-walk.jpg)](media/campus-walk.jpg)
+[![第三人称视角，角色沿石阶走近怀士堂门廊](media/hall-steps.jpg)](media/hall-steps.jpg)
 
 ## 怎样玩
 
